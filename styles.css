@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
+html{
+    font-family: rubik, sans-serif;
+}
+
+body{
+    font-family: rubik, sans-serif;
+    background: white;
+
+}
+a{
+    text-decoration:none !important;
+}
+.navbar-brand{
+    color:white !important;
+}
+
+#myNavbar a{
+    text-decoration: none;
+    color: white;
+}
+.btn-black{
+    border: 1px solid black;
+    background-color: #333 !important;
+    color: white !important;
+    border-radius: 0px;
+}
+.btn-white{
+    border: 1px solid white;
+    border-radius: 0px;
+}
+.bg-darkred{
+    background-color:#e52e26;
+}
+.bg-orange{
+    background-color:#E87727;
+}
+footer{
+    background-color:#e87727;
+}
+.bg-darkred:hover,
+.bg-orange:hover{
+    transform:scale(1.01);
+    transition-duration: 0.7s;
+}
+#benefits .bg-dark:hover{
+    transform:scale(1.01);
+    transition-duration: 0.7s;
+}
+#home{
+    background-image: url(Images/banner.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 760px;
+    color:white !important;
+}
+
+#home .check-icon{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    color: steelblue;
+}
+.card{
+    border-radius:0;
+    border:0;
+    color:white !important;
+}
+.card-header{
+    border:0;
+    border-radius: 0;
+    background-color:#e52e26;
+}
+.card-body{
+    border:0;
+    border-radius: 0;
+    background-color:#E87727;
+}
+#about a{
+    color:white;
+    border-bottom:1px solid white;
+}
+.card:hover{
+    transform:scale(1.02);
+    transition-duration: 0.7s;
+}
+#registrations img{
+    height:760px;
+    width:600px;
+}
+#media img{
+    height:500px;
+    width:760px;
+    opacity:0.8;
+}
+#media img:hover{
+    transform:scale(1.01);
+    transition-duration: 0.7s;
+    opacity:1;
+}
+
+
+.ic li{
+    display: inline-block;
+    
+}
